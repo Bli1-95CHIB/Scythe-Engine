@@ -1,4 +1,3 @@
-cat << 'EOF' > README.md
 # 🐀 Scythe: Cripper-X Plus Engine
 
 **Scythe** is an advanced, GPU-accelerated password cracking orchestrator designed to be the ultimate companion to `Cripper-X`. Built by **Bliss Chibueze**, Scythe bridges the gap between raw wordlist generation and Hashcat's immense processing power.
@@ -57,7 +56,7 @@ Once Hashcat finishes, view the cracked passwords with the cinematic unscramblin
     scythe --show hashes.txt
 
 ### 4. Help Menu
-For a dumb-ass proof guide on how to use the tool:
+For a guide on how to use the tool:
 
     scythe -h
 
@@ -72,4 +71,3 @@ For a dumb-ass proof guide on how to use the tool:
 
 ## ⚠️ Disclaimer
 This tool is intended for educational purposes and authorized penetration testing only. Do not use Scythe on systems you do not own or have explicit permission to test. The author is not responsible for any misuse or damage caused by this program.
-EOF
