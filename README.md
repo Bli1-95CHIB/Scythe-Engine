@@ -30,13 +30,14 @@ Scythe is designed for Linux environments (Kali, Debian, Ubuntu). Before install
     curl -sSL https://raw.githubusercontent.com/Blil-95CHIB/CRIPPER-X/main/install.sh | bash
 
 ---
-**Step 1: Clone the repository**
 
+### Install Scythe
+
+**Step 1: Clone the repository**
     git clone https://github.com/Blil-95CHIB/Scythe-Engine.git
     cd Scythe-Engine
 
 **Step 2: Run the automatic installer**
-
     chmod +x install.sh
     ./install.sh
 
@@ -66,7 +67,7 @@ Once Hashcat finishes, view the cracked passwords with the cinematic unscramblin
     scythe --show hashes.txt
 
 ### 4. Help Menu
-For a guide on how to use the tool:
+For a proof guide on how to use the tool:
 
     scythe -h
 
@@ -81,3 +82,4 @@ For a guide on how to use the tool:
 
 ## ⚠️ Disclaimer
 This tool is intended for educational purposes and authorized penetration testing only. Do not use Scythe on systems you do not own or have explicit permission to test. The author is not responsible for any misuse or damage caused by this program.
+EOF
