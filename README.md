@@ -25,7 +25,7 @@ Instead of downloading massive 10GB wordlists, Scythe allows you to dynamically 
 Scythe is designed for Linux environments (Kali, Debian, Ubuntu) and requires `hashcat` to be installed.
 
 1. Clone the repository:
-    git clone https://github.com/YOUR_USERNAME/Scythe.git
+    git clone https://github.com/Blil-95CHIB/Scythe-Engine.git
     cd Scythe
 
 2. Run the automatic installer:
