@@ -34,6 +34,7 @@ Scythe is designed for Linux environments (Kali, Debian, Ubuntu). Before install
 ### Install Scythe
 
 **Step 1: Clone the repository**
+
     git clone https://github.com/Bli1-95CHIB/Scythe-Engine.git
     cd Scythe-Engine
 
