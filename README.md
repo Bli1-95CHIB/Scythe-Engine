@@ -1,4 +1,6 @@
 # 🐀 Scythe: Cripper-X Plus Engine
+<img width="775" height="721" alt="Screenshot 2026-11-16 103053" src="https://github.com/user-attachments/assets/a977966b-0b8d-4ce8-bf9f-029fc4133f05" />
+
 
 **Scythe** is an advanced, GPU-accelerated password cracking orchestrator designed to be the ultimate companion to `Cripper-X`. Built by **Bliss Chibueze**, Scythe bridges the gap between raw wordlist generation and Hashcat's immense processing power.
 
