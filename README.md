@@ -1,8 +1,5 @@
+cat << 'EOF' > README.md
 # 🐀 Scythe: Cripper-X Plus Engine
-
-![Version](https://img.shields.io/badge/Version-12.2-brightgreen)
-![Author](https://img.shields.io/badge/Author-Bliss%20Chibueze-blue)
-![Platform](https://img.shields.io/badge/Platform-Linux%20%7C%20Kali%20%7C%20Debian-lightgrey)
 
 **Scythe** is an advanced, GPU-accelerated password cracking orchestrator designed to be the ultimate companion to `Cripper-X`. Built by **Bliss Chibueze**, Scythe bridges the gap between raw wordlist generation and Hashcat's immense processing power.
 
@@ -24,11 +21,13 @@ Instead of downloading massive 10GB wordlists, Scythe allows you to dynamically 
 
 Scythe is designed for Linux environments (Kali, Debian, Ubuntu) and requires `hashcat` to be installed.
 
-1. Clone the repository:
-    git clone https://github.com/Blil-95CHIB/Scythe-Engine.git
-    cd Scythe
+**Step 1: Clone the repository**
 
-2. Run the automatic installer:
+    git clone https://github.com/Blil-95CHIB/Scythe-Engine.git
+    cd Scythe-Engine
+
+**Step 2: Run the automatic installer**
+
     chmod +x install.sh
     ./install.sh
 
@@ -42,20 +41,24 @@ Once installed, you can call `scythe` from anywhere in your terminal.
 
 ### 1. The Demonic Pipeline (Generate & Crack)
 Pipe Cripper-X directly into Scythe. It will catch the words, generate demonic rules, and fire into the GPU.
+
     cripper -C admin,password -l 8 --stdout | scythe --crack hashes.txt --hash-mode 0
 
 *(Note: `--hash-mode 0` is for MD5. Use `1000` for NTLM.)*
 
 ### 2. Using a Pre-existing Wordlist
 Already have a wordlist? Feed it directly to Scythe.
+
     scythe -w /usr/share/wordlists/rockyou.txt --crack hashes.txt
 
 ### 3. The Hollywood Decryption (`--show`)
 Once Hashcat finishes, view the cracked passwords with the cinematic unscrambling animation.
+
     scythe --show hashes.txt
 
 ### 4. Help Menu
 For a dumb-ass proof guide on how to use the tool:
+
     scythe -h
 
 ---
@@ -69,3 +72,4 @@ For a dumb-ass proof guide on how to use the tool:
 
 ## ⚠️ Disclaimer
 This tool is intended for educational purposes and authorized penetration testing only. Do not use Scythe on systems you do not own or have explicit permission to test. The author is not responsible for any misuse or damage caused by this program.
+EOF
