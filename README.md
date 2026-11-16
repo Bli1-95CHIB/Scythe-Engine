@@ -18,7 +18,18 @@ Instead of downloading massive 10GB wordlists, Scythe allows you to dynamically 
 
 ## 🛠️ Installation
 
-Scythe is designed for Linux environments (Kali, Debian, Ubuntu) and requires `hashcat` to be installed.
+### Prerequisites
+
+Scythe is designed for Linux environments (Kali, Debian, Ubuntu). Before installing Scythe, ensure you have [Hashcat](https://hashcat.net/hashcat/) and the companion tool **[Cripper-X](https://github.com/Blil-95CHIB/CRIPPER-X)** installed.
+
+**1. Install Hashcat:**
+    sudo apt update
+    sudo apt install hashcat -y
+
+**2. Install Cripper-X (The Wordlist Engine):**
+    curl -sSL https://raw.githubusercontent.com/Blil-95CHIB/CRIPPER-X/main/install.sh | bash
+
+---
 
 **Step 1: Clone the repository**
 
