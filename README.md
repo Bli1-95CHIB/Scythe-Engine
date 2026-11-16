@@ -30,7 +30,6 @@ Scythe is designed for Linux environments (Kali, Debian, Ubuntu). Before install
     curl -sSL https://raw.githubusercontent.com/Blil-95CHIB/CRIPPER-X/main/install.sh | bash
 
 ---
-
 **Step 1: Clone the repository**
 
     git clone https://github.com/Blil-95CHIB/Scythe-Engine.git
